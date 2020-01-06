@@ -49,7 +49,7 @@ header .banner-text h1 {
   text-shadow: 0px 1px 3px rgba(0, 0, 0, .5);
 }
 
-header .banner-text h3{
+header .banner-text h4{
   font-size: 1.5vw;
   color: #fff;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, .5);
@@ -92,9 +92,103 @@ header .scrolldown a:hover{
 }
 
 #about{
-  height: 100vh;
-  background-color: #cab577;
+  /*height: 100vh; */
+  background-color: #2B2B2B;
   color: white;
+  padding: 60px 60px 60px 80px;
   /* font-size: 2vw; */
   text-shadow: 0px 1px 3px rgba(0, 0, 0, .2);
+  /* display: flex;
+  justify-content: flex-start; */
 }
+
+#nav-wrap ul, #nav-wrap li, #nav-wrap a {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+/* nav-wrap */
+#nav-wrap {
+  font: 12px 'opensans-bold', sans-serif;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  margin: 0 auto;
+  z-index: 100;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+.opaque { background-color: #333; }
+
+/* hide toggle button */
+#nav-wrap > a.mobile-btn { display: none; }
+
+ul#nav {
+  min-height: 48px;
+  width: auto;
+  background-color: #2B2B2B;
+  /* center align the menu */
+  text-align: center;
+}
+ul#nav li {
+  position: relative;
+  list-style: none;
+  height: 48px;
+  display: inline-block;
+}
+
+/* Links */
+ul#nav li a {
+
+/* 8px padding top + 8px padding bottom + 32px line-height = 48px */
+
+  display: inline-block;
+  padding: 8px 13px;
+  line-height: 32px;
+ text-decoration: none;
+  text-align: left;
+  color: #fff;
+
+ -webkit-transition: color .2s ease-in-out;
+ -moz-transition: color .2s ease-in-out;
+ -o-transition: color .2s ease-in-out;
+ -ms-transition: color .2s ease-in-out;
+ transition: color .2s ease-in-out;
+}
+
+
+
+ul#nav li a:active { background-color: transparent !important; color: #F06000;  }
+/* ul#nav li.current a { color: #F06000; } */
+
+#projects{
+  padding: 60px 60px 60px 60px;
+  /* font-size: 2vw; */
+  /* text-shadow: 0px 1px 3px rgba(0, 0, 0, .2); */
+}
+
+.three {
+  width: 28%
+}
+
+.nine {
+  width: 70%;
+}
+
+.vertical-timeline::before{
+  background:lightgray !important;
+}
+
+.vertical-timeline-element-icon{
+  box-shadow: 0 0 0 4px lightgray, inset 0 2px 0 rgba(0,0,0,.08), 0 3px 0 4px rgba(0,0,0,.05) !important;
+}
+
+.vertical-timeline-element-content {
+  background: lightgray !important;
+  box-shadow: 0 3px 0 grey !important;
+}
+
+
