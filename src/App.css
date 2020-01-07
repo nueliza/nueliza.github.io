@@ -102,6 +102,11 @@ header .scrolldown a:hover{
   justify-content: flex-start; */
 }
 
+#about a{
+  text-decoration:  none;
+  color: white
+}
+
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
   margin: 0;
   padding: 0;
@@ -189,6 +194,23 @@ ul#nav li a:active { background-color: transparent !important; color: #F06000;  
 .vertical-timeline-element-content {
   background: lightgray !important;
   box-shadow: 0 3px 0 grey !important;
+}
+
+.download-resume{
+  padding: 10px 10px 10px 10px;
+  background: gray;
+  border-radius: 6px;
+}
+
+#footer{
+  background: #2B2B2B;
+  padding: 50px 50px 50px 50px;
+}
+
+.scrollUp{
+  left: 50%;
+  position: absolute;
+  margin:-22px 0px 0px 0px;
 }
 
 

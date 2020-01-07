@@ -1,11 +1,14 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import { faChevronCircleUp } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import tcs from "../assets/images/tcs.jpeg";
 
 class Projects extends Component {
     render() {
         return (
+            <Fragment>
             <section id="projects">
                 <VerticalTimeline className="timeline">
                     <VerticalTimelineElement
@@ -80,6 +83,15 @@ class Projects extends Component {
                     </VerticalTimelineElement>
                 </VerticalTimeline>
             </section>
+                <a className="scrollUp" href="#home">
+                    <FontAwesomeIcon icon={faChevronCircleUp} color="black" size="3x" />
+                </a>
+            <section id="footer">
+                Linked In 
+                Facebook
+                Instagram
+            </section>
+            </Fragment>
         )
     }
 }

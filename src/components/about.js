@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import resume from "../assets/resume.pdf";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 class About extends Component{
     render(){
@@ -11,6 +14,17 @@ class About extends Component{
                 Rockville, Maryland 20855<br/>
                 860-995-0878<br/>
                 nueliza@gmail.com
+
+                <br/>
+                <br />
+                <br />                
+                <span className="download-resume">
+                    <a href={resume} target= "/">
+                        <FontAwesomeIcon icon={faDownload} size="1x" />
+                        &nbsp;&nbsp;Download resume
+                    </a>
+                </span>
+                
             </section>
         )
     }
