@@ -13,18 +13,15 @@ class About extends Component{
                 15955 Frderick Rd, Apt #2251<br/>
                 Rockville, Maryland 20855<br/>
                 860-995-0878<br/>
-                nueliza@gmail.com
+                nueliza@gmail.com 
 
-                <br/>
-                <br />
-                <br />                
                 <span className="download-resume">
                     <a href={resume} target= "/">
                         <FontAwesomeIcon icon={faDownload} size="1x" />
                         &nbsp;&nbsp;Download resume
                     </a>
                 </span>
-                
+                <br />
             </section>
         )
     }

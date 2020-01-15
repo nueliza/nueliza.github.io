@@ -9,6 +9,18 @@ class Projects extends Component {
     render() {
         return (
             <Fragment>
+                <div className="container bounce-in-top">
+                    <div className="left-box">
+
+                    </div>
+                    <a className="center-image" href="#home">
+                     <FontAwesomeIcon icon={faChevronCircleUp} color="black" size="3x" />
+                    </a>
+                    <div className="right-box">
+
+                    </div>
+                </div>
+                
             <section id="projects">
                 <VerticalTimeline className="timeline">
                     <VerticalTimelineElement
