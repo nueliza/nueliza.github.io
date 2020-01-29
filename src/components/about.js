@@ -8,7 +8,7 @@ class About extends Component{
         return(
             <section id="about">
                 
-                <h2> Contact details</h2>
+                <h2>About</h2>
 
                 <div className="about-item-container">
                     <div className="about-item">
