@@ -2,7 +2,7 @@ import React, { Component, Fragment } from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { faChevronCircleUp, faNewspaper } from "@fortawesome/free-solid-svg-icons";
-import { faLinkedin, faInstagram, faFacebookSquare } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faInstagram, faFacebookSquare, faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import tcsIcon from "../assets/images/tcs.jpeg";
 import jqiIcon from "../assets/images/jqi.png";
@@ -132,6 +132,7 @@ class Projects extends Component {
                 <a href="https://www.linkedin.com/in/annuabraham/" target="/"><FontAwesomeIcon icon={faLinkedin} color="white" size="3x" /></a>
                 <a href="https://www.facebook.com/annu.e.abraham" target="/"><FontAwesomeIcon icon={faFacebookSquare} color="white" size="3x" /></a>
                 <a href="https://www.instagram.com/nu_eliza/" target="/"><FontAwesomeIcon icon={faInstagram} color="white" size="3x" /></a>
+                <a href="https://github.com/nueliza" target="/"><FontAwesomeIcon icon={faGithubSquare} color="white" size="3x" /></a>
                 <div>
                     created by <br/>Annu Elizabeth Abram
                 </div>
