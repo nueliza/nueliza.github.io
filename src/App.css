@@ -453,6 +453,12 @@ ul#nav li a:active { background-color: transparent !important; color: #F06000;  
   margin-top: 10px;
 }
 
+.my-story-container{
+  text-align: justify;
+  width: 82%;
+  margin: auto;
+}
+
 
 
 
