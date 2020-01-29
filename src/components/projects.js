@@ -1,33 +1,63 @@
 import React, { Component, Fragment } from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { faChevronCircleUp } from "@fortawesome/free-solid-svg-icons";
+import { faChevronCircleUp, faNewspaper } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin, faInstagram, faFacebookSquare } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import tcs from "../assets/images/tcs.jpeg";
+import tcsIcon from "../assets/images/tcs.jpeg";
+import jqiIcon from "../assets/images/jqi.png";
+import umdIcon from "../assets/images/umd.jpg";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 class Projects extends Component {
     render() {
         return (
             <Fragment>
-                <div className="container bounce-in-top">
-                    <div className="left-box">
-
-                    </div>
-                    <a className="center-image" href="#home">
-                     <FontAwesomeIcon icon={faChevronCircleUp} color="black" size="3x" />
-                    </a>
-                    <div className="right-box">
-
-                    </div>
-                </div>
+                    
                 
             <section id="projects">
+            {/* <ScrollAnimation animateIn="slideInLeft" animateOnce={true}>
+                    <div className='container'>
+                        <div className="left-box">
+                        Graduate Assistant – React Developer
+                        Joint Quantum Institute
+                        </div>
+                        <a className="center-image" href="#home">
+                        <FontAwesomeIcon icon={faChevronCircleUp} color="black" size="3x" />
+                        </a>
+                        <div className="right-box">
+                            <p>
+                                ●	Created Open Source React-based Web Application for presenting interactive Quantum Physics Experiments aiming to create awareness and interest in Quantum Physics for over 30000 students on UMD campus and more.
+                            <br />
+                                ●	Proactively fixed bugs and initiated Test-Driven Development by writing tests in Jest with 86% coverage.
+                            <br />
+                                ●	Intensively worked with media queries and bootstrap to make the website responsive.
+                            </p>
+                        </div>
+                    </div>
+                </ScrollAnimation>  
+
+                <ScrollAnimation animateIn="slideInRight" animateOnce={true}>
+                    <div className='container'>
+                        <div className="left-box">
+
+                        </div>
+                        <a className="center-image" href="#home">
+                        <FontAwesomeIcon icon={faChevronCircleUp} color="black" size="3x" />
+                        </a>
+                        <div className="right-box">
+
+                        </div>
+                    </div>
+                </ScrollAnimation>  */}
+
+               <h2>Projects</h2>
                 <VerticalTimeline className="timeline">
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work timeline-ele"
                         date="July 2019 - Present"
                         iconStyle={{ textAlign: 'center' }}
-                        icon={<i>JQI</i>}
+                        icon={<img className='work-icon' alt="TCS icon" src={jqiIcon}/>}
                     >
                         <h3 className="vertical-timeline-element-title">Graduate Assistant – React Developer</h3>
                         <h4 className="vertical-timeline-element-subtitle">Joint Quantum Institute</h4>
@@ -43,7 +73,7 @@ class Projects extends Component {
                         className="vertical-timeline-element--work timeline-ele"
                         date="July 2019 - Present"
                         iconStyle={{ textAlign: 'center' }}
-                        icon={<i>UMD</i>}
+                        icon={<img className='work-icon' alt="TCS icon" src={umdIcon}/>}
                     >
                         <h3 className="vertical-timeline-element-title">Full Stack Developer</h3>
                         <h4 className="vertical-timeline-element-subtitle">UMD Engineering Software Project</h4>
@@ -61,7 +91,7 @@ class Projects extends Component {
                         className="vertical-timeline-element--work timeline-ele"
                         date="September 2016 - June 2018"
                         iconStyle={{ textAlign: 'center' }}
-                        icon={<i>TCS</i>}
+                        icon={<img className='work-icon' alt="TCS icon" src={tcsIcon}/>}
                     >
                         <h3 className="vertical-timeline-element-title">Software Engineer</h3>
                         <h4 className="vertical-timeline-element-subtitle">TATA Consultancy Services</h4>
@@ -79,7 +109,7 @@ class Projects extends Component {
                         className="vertical-timeline-element--work timeline-ele"
                         date="October 2014 - August 2016"
                         iconStyle={{ textAlign: 'center' }}
-                        icon={<i>TCS</i>}
+                        icon={<img className='work-icon' alt="TCS icon" src={tcsIcon}/>}
                     >
                         <h3 className="vertical-timeline-element-title">Assistant System Engineer</h3>
                         <h4 className="vertical-timeline-element-subtitle">TATA Consultancy Services</h4>
@@ -95,13 +125,16 @@ class Projects extends Component {
                     </VerticalTimelineElement>
                 </VerticalTimeline>
             </section>
-                <a className="scrollUp" href="#home">
-                    <FontAwesomeIcon icon={faChevronCircleUp} color="black" size="3x" />
-                </a>
+            <a className="scrollUp" href="#home">
+                <FontAwesomeIcon icon={faChevronCircleUp} color="black" size="3x" />
+            </a>
             <section id="footer">
-                Linked In 
-                Facebook
-                Instagram
+                <a href="https://www.linkedin.com/in/annuabraham/" target="/"><FontAwesomeIcon icon={faLinkedin} color="white" size="3x" /></a>
+                <a href="https://www.facebook.com/annu.e.abraham" target="/"><FontAwesomeIcon icon={faFacebookSquare} color="white" size="3x" /></a>
+                <a href="https://www.instagram.com/nu_eliza/" target="/"><FontAwesomeIcon icon={faInstagram} color="white" size="3x" /></a>
+                <div>
+                    created by <br/>Annu Elizabeth Abram
+                </div>
             </section>
             </Fragment>
         )
