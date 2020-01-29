@@ -19,7 +19,7 @@ class About extends Component{
                         <h2>Hi there! I’m Annu Elizabeth Abraham. </h2>You can call me <i>Annu</i>.
                     </p>    
                     <p>
-                        I’m a 27 years old female living in Maryland, USA. Ever since I was a little kid, software development has been my passion. I still remember my first “Hello, World!” program in BASIC which left my jaw hanging for a while. I was so amazed by the new superpower which allowed me to make computer do whatever I wanted by typing some symbols. My passion for software development carried me through my education at University of Kerala.  
+                        I’m a 27 years old female living in Maryland. Ever since I was a little kid, software development has been my passion. I still remember my first “Hello, World!” program in BASIC which left my jaw hanging for a while. I was so amazed by the new superpower which allowed me to make computer do whatever I wanted by typing some symbols. My passion for software development carried me through my education at University of Kerala.  
                         During my four years at University of Kerala, I realized my first “Hello, World!” program was just the tip of the iceberg. 
                     </p>   
                     <p>
