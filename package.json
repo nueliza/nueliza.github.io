@@ -13,6 +13,7 @@
     "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^16.12.0",
     "react-event-timeline": "^1.6.3",
+    "react-helmet": "^5.2.1",
     "react-scripts": "3.2.0",
     "react-snap": "^1.23.0",
     "react-vertical-timeline-component": "^2.5.0"
