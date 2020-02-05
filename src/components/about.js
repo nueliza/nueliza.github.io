@@ -28,7 +28,9 @@ class About extends Component{
                     </p>         
                     <p>
                         <section id="skills">
-                            <b>My specialties</b> include quickly learning new skills and programming languages, responsive design principles, web accessibility, and Model View controller model for organizing code.  JavaScript, React, Redux, Bootstrap, HTML, CSS,  Jest, Git/GitHub, Cypress.io, Selenium are the feathers on my cap. I’m enthusiastically grabbing onto other programming languages, framework, or principles. Currently, I have Node.JS , Express.JS, and MongoDB on my plate!
+                            <b>My specialties</b> include quickly learning new skills and programming languages, responsive design principles, web accessibility, and Model View controller model for organizing code.  
+                            JavaScript, React, Redux, Bootstrap, HTML, CSS,  Jest, Git/GitHub, Cypress.io, Selenium are the feathers on my cap. I’m enthusiastically grabbing onto other programming languages, framework, or principles.
+                            Currently, I have Spring Boot, Node.JS , Express.JS, and MongoDB on my plate!
                         </section>
                     </p>
                 
