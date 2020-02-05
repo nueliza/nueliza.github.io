@@ -80,7 +80,7 @@ header .scrolldown a:hover{
   /*height: 100vh; */
   background-color: #2B2B2B;
   color: white;
-  padding: 60px 60px 60px 80px;
+  padding: 60px 60px 60px;
   /* font-size: 2vw; */
   text-shadow: 0px 1px 3px rgba(0, 0, 0, .2);
   /* display: flex;
@@ -155,7 +155,7 @@ ul#nav li a:active { background-color: transparent !important; color: #F06000;  
 /* ul#nav li.current a { color: #F06000; } */
 
 #projects{
-  padding: 60px 60px 60px 60px;
+  padding: 60px 60px 60px;
   /* font-size: 2vw; */
   /* text-shadow: 0px 1px 3px rgba(0, 0, 0, .2); */
 }
@@ -182,7 +182,7 @@ ul#nav li a:active { background-color: transparent !important; color: #F06000;  
 }
 
 .download-resume{
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px 10px;
   background: gray;
   border-radius: 6px;
   display: block;
@@ -192,7 +192,7 @@ ul#nav li a:active { background-color: transparent !important; color: #F06000;  
 
 #footer{
   background: #2B2B2B;
-  padding: 50px 50px 50px 50px;
+  padding: 50px 50px 50px;
 }
 
 .scrollUp{
@@ -208,7 +208,8 @@ ul#nav li a:active { background-color: transparent !important; color: #F06000;  
   overflow: hidden;
   color: #fff;
 }
-
+/* CSS For slanted div for experience */
+/* 
 .experience-left:after{
   content: '';
   position: absolute;
@@ -251,10 +252,8 @@ ul#nav li a:active { background-color: transparent !important; color: #F06000;  
   z-index: -1;
 }
 .container{
-  /* position: absolute; */
   top: 50%;
   left: 50%;
-  /* transform: translate(-50%, -50%); */
   height: 300px;
   width: 700px;
   background: #2B2B2B;
@@ -286,7 +285,7 @@ ul#nav li a:active { background-color: transparent !important; color: #F06000;  
   position: absolute;
   margin: -21px 0px 0px 0px;
   margin-top: 120px;
-}
+} */
 
 
 .about-item-container{
@@ -296,7 +295,7 @@ ul#nav li a:active { background-color: transparent !important; color: #F06000;  
 
 .about-item{
   width: 33%;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px 10px;
   border-radius: 10px;
   height: 8rem;
   margin-right: 20px;
@@ -361,7 +360,7 @@ ul#nav li a:active { background-color: transparent !important; color: #F06000;  
     width: 100%;
   }
   #about, #projects{
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 10px;
   }
   .my-story-container{
     width: 95%;

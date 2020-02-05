@@ -36,18 +36,18 @@ class About extends Component{
                 </div>
 
                 <div className="about-item-container">
-                    <div className="about-item">
+                    <a className="about-item" href="tel:+18609950878">
                         <FontAwesomeIcon icon={faPhone} size="3x" /><br/>
-                        <div className="about-item-content">
+                        <div className="about-item-content"  >
                             860-995-0878
                         </div>
-                    </div>
-                    <div className="about-item">
+                    </a>
+                    <a className="about-item" href={`mailto:nueliza@gmail.com`}>
                         <FontAwesomeIcon icon={faEnvelope} size="3x" /><br/>
-                        <div className="about-item-content">
+                        <div className="about-item-content" >
                             nueliza@gmail.com
                         </div>
-                    </div>
+                    </a>
                     <div className="about-item">
                         <FontAwesomeIcon icon={faMapMarkerAlt} size="3x" /><br/>
                         <div className="about-item-content">
