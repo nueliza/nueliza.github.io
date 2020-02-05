@@ -28,9 +28,9 @@ class Header extends Component {
                 </div>
                 
 
-                <p className="scrolldown">
-                    <a className="smoothscroll" href="#about"><FontAwesomeIcon icon={faChevronCircleDown} color="white" /></a>
-                </p>
+                <div className="scrolldown">
+                    <a className="smoothscroll" href="#about"><FontAwesomeIcon icon={faChevronCircleDown} color="white" size="3x"/></a>
+                </div>
             </header>
         )
     }

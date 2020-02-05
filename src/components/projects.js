@@ -125,7 +125,7 @@ class Projects extends Component {
                     </VerticalTimelineElement>
                 </VerticalTimeline>
             </section>
-            <a className="scrollUp" href="#home">
+            <a className="scrollUp smoothscroll" href="#home">
                 <FontAwesomeIcon icon={faChevronCircleUp} color="black" size="3x" />
             </a>
             <section id="footer">

@@ -57,17 +57,11 @@ header .banner-text h4{
 
 header .scrolldown a{
   position: absolute;
-   bottom: 30px;
-   left: 50%;
-   margin-left: -29px;
-   color: #fff;
-   display: block;
+  bottom: 30px;
+  left: 48%;
+   /*display: block;
    height: 42px;
-   width: 42px;
-   font-size: 42px;
-   line-height: 42px;
-   color: #fff;
-   border-radius: 100%;
+   width: 42px; */
 }
 
 header .scrolldown a:hover{
@@ -89,7 +83,8 @@ header .scrolldown a:hover{
 
 #about a{
   text-decoration:  none;
-  color: white
+  color: white;
+  display: block;
 }
 
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
@@ -365,6 +360,9 @@ ul#nav li a:active { background-color: transparent !important; color: #F06000;  
   .my-story-container{
     width: 95%;
     text-align: unset;
+  }
+  header .scrolldown a, .scrollUp{
+    left: 45%;
   }
 }
 
