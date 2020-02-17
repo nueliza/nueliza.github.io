@@ -367,6 +367,12 @@ ul#nav li a:active { background-color: transparent !important; color: #F06000;  
   header .banner-text h4{
     font-size: 3vw;
   }
+  header .banner-text h1 {
+    /* font: 7vw 'opensans-bold', sans-serif; */
+   
+    letter-spacing: 0px;
+   
+  }
 }
 
 
