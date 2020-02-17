@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { faChevronCircleUp, faNewspaper } from "@fortawesome/free-solid-svg-icons";
+import { faChevronCircleUp } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faInstagram, faFacebookSquare, faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import tcsIcon from "../assets/images/tcs.jpeg";

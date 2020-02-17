@@ -364,6 +364,9 @@ ul#nav li a:active { background-color: transparent !important; color: #F06000;  
   header .scrolldown a, .scrollUp{
     left: 45%;
   }
+  header .banner-text h4{
+    font-size: 3vw;
+  }
 }
 
 
