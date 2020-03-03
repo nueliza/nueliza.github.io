@@ -38,7 +38,7 @@ header .banner {
   display: inline-block;
   padding-bottom: 30px;
   text-align: center;
-  padding-bottom: 60px;
+  padding-top: 60px;
 }
 
 header .banner-text h1 {
