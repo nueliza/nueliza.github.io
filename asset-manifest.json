@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.61198812.chunk.css",
-    "main.js": "/static/js/main.aefb4a0a.chunk.js",
-    "main.js.map": "/static/js/main.aefb4a0a.chunk.js.map",
+    "main.js": "/static/js/main.10748e86.chunk.js",
+    "main.js.map": "/static/js/main.10748e86.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a5c812ab.js",
     "runtime-main.js.map": "/static/js/runtime-main.a5c812ab.js.map",
     "static/css/2.a641e29a.chunk.css": "/static/css/2.a641e29a.chunk.css",
     "static/js/2.628c08bc.chunk.js": "/static/js/2.628c08bc.chunk.js",
     "static/js/2.628c08bc.chunk.js.map": "/static/js/2.628c08bc.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3be95b44e7cd30ee01c660044e024f1f.js": "/precache-manifest.3be95b44e7cd30ee01c660044e024f1f.js",
+    "precache-manifest.5e67e5be1d7a1a8f249ef885f4612299.js": "/precache-manifest.5e67e5be1d7a1a8f249ef885f4612299.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.a641e29a.chunk.css.map": "/static/css/2.a641e29a.chunk.css.map",
     "static/css/main.61198812.chunk.css.map": "/static/css/main.61198812.chunk.css.map",
     "static/media/App.css": "/static/media/bg.bf472238.jpg",
     "static/media/jqi.png": "/static/media/jqi.8a557593.png",
     "static/media/picture.png": "/static/media/picture.6a158866.png",
-    "static/media/resume.pdf": "/static/media/resume.25c44c73.pdf",
+    "static/media/resume.docx": "/static/media/resume.46fe0dcf.docx",
     "static/media/searchResultImage.png": "/static/media/searchResultImage.c3ef27df.png",
     "static/media/umd.jpg": "/static/media/umd.2f6109f4.jpg"
   },
@@ -25,6 +25,6 @@
     "static/css/2.a641e29a.chunk.css",
     "static/js/2.628c08bc.chunk.js",
     "static/css/main.61198812.chunk.css",
-    "static/js/main.aefb4a0a.chunk.js"
+    "static/js/main.10748e86.chunk.js"
   ]
 }
