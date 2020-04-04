@@ -64,11 +64,16 @@ class Projects extends Component {
                         <h3 className="vertical-timeline-element-title">Graduate Assistant – React Developer</h3>
                         <h4 className="vertical-timeline-element-subtitle">Joint Quantum Institute</h4>
                         <p>
-                            ●	Created Open Source React-based Web Application for presenting interactive Quantum Physics Experiments aiming to create awareness and interest in Quantum Physics for over 30000 students on UMD campus and more.
+                        ●	Designed reusable <b>Single Page Application (SPA)</b> in <b>ReactJS</b> by using the concept of virtual DOM.
                         <br />
-                            ●	Proactively fixed bugs and initiated Test-Driven Development by writing tests in Jest with 86% coverage.
+                        ●	Ensured performance, quality, and responsiveness of applications using <b>CSS Media Queries</b>. 
                         <br />
-                            ●	Intensively worked with media queries and bootstrap to make the website responsive.
+                        ●	Proactively track and resolve bugs, initiated Test-Driven Development by writing tests in Jest with 86% coverage.
+                        <br />
+                        ●	Reviewed the quality of code resulting in code readability increase and performance improvements.
+                        <br />
+                        ●	Involved in requirements gathering, analysis, design, and documentation of the application.
+
                         </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
@@ -80,11 +85,15 @@ class Projects extends Component {
                         <h3 className="vertical-timeline-element-title">Full Stack Developer</h3>
                         <h4 className="vertical-timeline-element-subtitle">UMD Engineering Software Project</h4>
                         <p>
-                        ●	Authored a responsive web application using React/Redux, Bootstrap, media queries, and Material-UI
+                        ●	Designed and developed user facing application utilizing <b>ReactJs/Redux, Spring Boot, Hibernate, and MySQL</b>.
                         <br />
-                        ●	Learned Spring Boot and developed RESTful APIs for seamlessly communication between the client and server.
+                        ●	Developed file upload utility in <b>ReactJs</b> and utilized to <b>Fetch API</b> to consume <b>REST APIs</b>.
                         <br />
-                        ●	Guided and shaped team members in the emerging Web technologies such as React/Redux, Spring Boot, Bootstrap.
+                        ●	Participated in daily meetings to communicate work progress and potential roadblocks.
+                        <br />
+                        ●	Designed and modelled the application architecture using design patterns such as factory, singleton and <b>MVC</b>.
+                        <br />
+                        ●	Worked collaboratively and professionally with team members to achieve goals.
                         <br />
                         <a href="https://get-sat-pro-client.herokuapp.com/" target="/">https://get-sat-pro-client.herokuapp.com/</a>
                         </p>
@@ -98,10 +107,16 @@ class Projects extends Component {
                         <h3 className="vertical-timeline-element-title">Software Engineer</h3>
                         <h4 className="vertical-timeline-element-subtitle">United Airlines</h4>
                         <p>
-                        ● Maximized the performance of a server rendered WebApp by migrating to client rendered WebApp using ReactJs.<br/>
-                        ● Boosted code coverage to more than 90% by writing unit tests in Jest and Enzyme to save development efforts.<br/>
-                        ● Enhanced the User Experience to 35% by observing Responsive Web Design (RWD).<br/>
-                        ● Third Party contractor at TATA Consultancy Services.
+                        ●	Developed new and customization of existing features for the business-critical Single page application utilizing <b>ReactJs/Redux, Spring MVC, Hibernate, </b> resulting in consistent deployment of 7 major product updates.
+                        <br />
+                        ●	Maximized the performance of a server rendered Web Application by migrating it to client rendered Web Application.
+                        <br />
+                        ●	Incorporated error statements with Log4j to easily identify and resolve defects thereby reducing debugging time.
+                        <br />
+                        ●	Contributed in <b>continuous integration and continuous deployment </b> by making pull requests using GitHub and Jenkins reducing the average deployment time.
+                        <br />
+                        ●	Presented, collaborated and added value to the company and team through participation in <b>peer code reviews</b>, providing comments and suggestions.
+
                         </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
@@ -113,10 +128,22 @@ class Projects extends Component {
                         <h3 className="vertical-timeline-element-title">Assistant System Engineer</h3>
                         <h4 className="vertical-timeline-element-subtitle">United Services Automobile Association (USAA)</h4>
                         <p>
-                        ● Built Single Page Applications (SPA) that facilitate P2P payments – Zelle by consuming REST APIs.<br/>
-                        ● Standardized application built from scratch with web accessibility by adhering to Section 508 standards.<br/>
-                        ● Ensured performance, quality, and responsiveness of applications by conducting end to end testing and Unit testing.<br/>
-                        ● Third Party contractor at TATA Consultancy Services.<br/>
+                        ●	Designed reusable user interface in <b>ReactJS and JavaScript ES6 </b> and managed application state using <b>Redux</b>.
+                        <br />
+                        ●	Built scalable <b>REST APIs using Spring </b> to maintain user accounts, secured APIs through <b>authorization</b>.
+                        <br />
+                        ●	Integrated with third party services and external APIs to standardize and mitigate code duplicity. 
+                        <br />
+                        ●	Troubleshoot & fixed bugs resulting in code readability increase and performance improvements. 
+                        <br />
+                        ●	Enhanced User satisfaction to 35% by improving usability and accessibility adhering with <b>Section 508 compliance</b>.
+                        <br />
+                        ●	Worked in <b>Agile</b> methodology by briefing in scrum calls, suggesting story tasks, and approximating efforts.
+                        <br />
+                        ●	Managed code revision using SourceTree and Bitbucket and used JIRA boards to manage sprints.
+                        <br />
+                        ●	Assessing project requirements using Agile & Scrum principles that helped prioritize activities and reduce ad hoc work requests by 35%.
+
                         </p>
                     </VerticalTimelineElement>
                 </VerticalTimeline>
