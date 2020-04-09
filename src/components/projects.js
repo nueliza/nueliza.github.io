@@ -64,7 +64,9 @@ class Projects extends Component {
                         <h3 className="vertical-timeline-element-title">Graduate Assistant – React Developer</h3>
                         <h4 className="vertical-timeline-element-subtitle">Joint Quantum Institute</h4>
                         <p>
-                        ●	Designed reusable <b>Single Page Application (SPA)</b> in <b>ReactJS</b> by using the concept of virtual DOM.
+                        ●	Created <b>Front-End</b> focused Web Application aiming to create awareness in Quantum Physics for over 30000 students.
+                        <br />
+                        ●	Designed reusable <b>Single Page Application (SPA) in ReactJS</b> by using the concept of virtual DOM.
                         <br />
                         ●	Ensured performance, quality, and responsiveness of applications using <b>CSS Media Queries</b>. 
                         <br />
@@ -73,7 +75,6 @@ class Projects extends Component {
                         ●	Reviewed the quality of code resulting in code readability increase and performance improvements.
                         <br />
                         ●	Involved in requirements gathering, analysis, design, and documentation of the application.
-
                         </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
@@ -85,7 +86,7 @@ class Projects extends Component {
                         <h3 className="vertical-timeline-element-title">Full Stack Developer</h3>
                         <h4 className="vertical-timeline-element-subtitle">UMD Engineering Software Project</h4>
                         <p>
-                        ●	Designed and developed user facing application utilizing <b>ReactJs/Redux, Spring Boot, Hibernate, and MySQL</b>.
+                        ●	Designed and developed user facing application utilizing <b>ReactJs/Redux, Express.js, Mongoose, and MongoDB</b>.
                         <br />
                         ●	Developed file upload utility in <b>ReactJs</b> and utilized to <b>Fetch API</b> to consume <b>REST APIs</b>.
                         <br />
@@ -94,8 +95,7 @@ class Projects extends Component {
                         ●	Designed and modelled the application architecture using design patterns such as factory, singleton and <b>MVC</b>.
                         <br />
                         ●	Worked collaboratively and professionally with team members to achieve goals.
-                        <br />
-                        <a href="https://get-sat-pro-client.herokuapp.com/" target="/">https://get-sat-pro-client.herokuapp.com/</a>
+
                         </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
@@ -107,13 +107,15 @@ class Projects extends Component {
                         <h3 className="vertical-timeline-element-title">Software Engineer</h3>
                         <h4 className="vertical-timeline-element-subtitle">United Airlines</h4>
                         <p>
-                        ●	Developed new and customization of existing features for the business-critical Single page application utilizing <b>ReactJs/Redux, Spring MVC, Hibernate, </b> resulting in consistent deployment of 7 major product updates.
-                        <br />
                         ●	Maximized the performance of a server rendered Web Application by migrating it to client rendered Web Application.
                         <br />
-                        ●	Incorporated error statements with Log4j to easily identify and resolve defects thereby reducing debugging time.
+                        ●	Boosted code coverage to more than 90% by writing unit tests in <b>Jest and Enzyme</b> to save development efforts.
                         <br />
-                        ●	Contributed in <b>continuous integration and continuous deployment </b> by making pull requests using GitHub and Jenkins reducing the average deployment time.
+                        ●	Implemented <b>Fetch API</b> to consume REST APIs to maintain passenger and flight booking information.
+                        <br />
+                        ●	Collaborated with team to devise wireframes, mockups, and prototypes and restructured user experience design.
+                        <br />
+                        ●	Contributed in <b>continuous integration and continuous deployment</b> by making pull requests using GitHub and Jenkins reducing the average deployment time.
                         <br />
                         ●	Presented, collaborated and added value to the company and team through participation in <b>peer code reviews</b>, providing comments and suggestions.
 
@@ -128,11 +130,9 @@ class Projects extends Component {
                         <h3 className="vertical-timeline-element-title">Assistant System Engineer</h3>
                         <h4 className="vertical-timeline-element-subtitle">United Services Automobile Association (USAA)</h4>
                         <p>
-                        ●	Designed reusable user interface in <b>ReactJS and JavaScript ES6 </b> and managed application state using <b>Redux</b>.
-                        <br />
-                        ●	Built scalable <b>REST APIs using Spring </b> to maintain user accounts, secured APIs through <b>authorization</b>.
-                        <br />
-                        ●	Integrated with third party services and external APIs to standardize and mitigate code duplicity. 
+                        ●	Designed reusable user interface in <b>ReactJS</b> and JavaScript ES6 and managed application state using <b>Redux-Thunk</b>.
+                        
+                        ●	Consumed <b>REST APIs using Axios</b> to maintain user accounts, secured APIs through <b>authorization</b>.
                         <br />
                         ●	Troubleshoot & fixed bugs resulting in code readability increase and performance improvements. 
                         <br />
@@ -157,7 +157,7 @@ class Projects extends Component {
                 <a href="https://www.instagram.com/nu_eliza/" target="/"><FontAwesomeIcon icon={faInstagram} color="white" size="3x" /></a>
                 <a href="https://github.com/nueliza" target="/"><FontAwesomeIcon icon={faGithubSquare} color="white" size="3x" /></a>
                 <div>
-                    created by <br/>Annu Elizabeth Abram
+                    created by <br/>Annu Elizabeth Abraham
                 </div>
             </section>
             </Fragment>
