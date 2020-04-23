@@ -107,7 +107,7 @@ class Projects extends Component {
                         <h3 className="vertical-timeline-element-title">Software Engineer</h3>
                         <h4 className="vertical-timeline-element-subtitle">United Airlines</h4>
                         <p>
-                        ●	Developed new and customization of existing features for the business-critical Single page application utilizing ReactJs/Redux, Spring MVC, Hibernate, resulting in consistent deployment of 7 major product updates.
+                        ●	Developed new and customization of existing features for the business-critical Single page application utilizing <b>ReactJs/Redux, Spring MVC, Hibernate </b> resulting in consistent deployment of 7 major product updates.
                         <br />
                         ●	Boosted code coverage to more than 90% by writing unit tests in <b>Jest and Enzyme</b> to save development efforts.
                         <br />
