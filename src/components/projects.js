@@ -107,7 +107,7 @@ class Projects extends Component {
                         <h3 className="vertical-timeline-element-title">Software Engineer</h3>
                         <h4 className="vertical-timeline-element-subtitle">United Airlines</h4>
                         <p>
-                        ●	Maximized the performance of a server rendered Web Application by migrating it to client rendered Web Application.
+                        ●	Developed new and customization of existing features for the business-critical Single page application utilizing ReactJs/Redux, Spring MVC, Hibernate, resulting in consistent deployment of 7 major product updates.
                         <br />
                         ●	Boosted code coverage to more than 90% by writing unit tests in <b>Jest and Enzyme</b> to save development efforts.
                         <br />
@@ -131,7 +131,7 @@ class Projects extends Component {
                         <h4 className="vertical-timeline-element-subtitle">United Services Automobile Association (USAA)</h4>
                         <p>
                         ●	Designed reusable user interface in <b>ReactJS</b> and JavaScript ES6 and managed application state using <b>Redux-Thunk</b>.
-                        
+                        <br />
                         ●	Consumed <b>REST APIs using Axios</b> to maintain user accounts, secured APIs through <b>authorization</b>.
                         <br />
                         ●	Troubleshoot & fixed bugs resulting in code readability increase and performance improvements. 
